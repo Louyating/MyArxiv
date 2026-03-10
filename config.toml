@@ -20,7 +20,7 @@ title = "Multimedia"  # 核心：多媒体内容合成、3D重建、虚拟试穿
 [[sources]]
 limit = 100  # 次要方向可适当减少数量
 category = "cs.GR"
-title = "Graphics"  # 补充：3D图形渲染、人体建模
+title = "Graphics" # 补充：3D图形渲染、人体建模
 
 [[sources]]
 limit = 100
