@@ -11,7 +11,7 @@ let conferences = [
     "ACM MM", "ICMR",
     // 图形学（3D VTON核心）
     "SIGGRAPH", "3DV",
-    // 机器学习（生成模型支撑）
+    // 机器学习(生成模型支撑）
     "ICML", "NeurIPS", "ICLR"
 ];
 
