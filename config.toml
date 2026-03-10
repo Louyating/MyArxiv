@@ -1,31 +1,31 @@
 site_title = "MyArxiv"
 limit_days = 7
-cache_url = "https://mlnlp-world.github.io/MyArxiv/cache.json"
-
-[[sources]]
-limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+cache_url = "https://Louyating.github.io/MyArxiv/cache.json"
 
 [[sources]]
 limit = 150
 category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
-
-[[sources]]
-limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
+title = "Computer Vision and Pattern Recognition"  # 核心：虚拟试穿的视觉算法、姿态估计、图像生成
 
 [[sources]]
 limit = 150
 category = "cs.LG"
-title = "Machine Learning"
+title = "Machine Learning"  # 核心：生成模型（GAN/扩散模型）、特征学习、个性化适配
 
 [[sources]]
 limit = 150
 category = "cs.MM"
-title = "Multimedia"
+title = "Multimedia"  # 核心：多媒体内容合成、3D重建、虚拟试穿交互
+
+[[sources]]
+limit = 100  # 次要方向可适当减少数量
+category = "cs.GR"
+title = "Graphics"  # 补充：3D图形渲染、人体建模
+
+[[sources]]
+limit = 100
+category = "cs.RO"
+title = "Robotics"  # 补充：人体姿态估计、动作捕捉（辅助虚拟试穿）
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
